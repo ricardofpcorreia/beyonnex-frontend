@@ -1,0 +1,22 @@
+.temperatureGauge-display {
+    width: 200px;
+    font-family: Arial, sans-serif;
+}
+
+.temperatureGauge-svg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.needle {
+    stroke: #333;
+    stroke-width: 0.5;
+    transition: transform 0.3s ease-in-out;
+}
+
+.temperature-display {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
